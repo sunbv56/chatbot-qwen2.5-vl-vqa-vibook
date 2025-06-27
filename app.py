@@ -20,10 +20,10 @@ warnings.filterwarnings("ignore", category=UserWarning, message="Overriding torc
 os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 
 # --- 1. Load Model and Processor (on startup) ---
-# MODEL_ID = "sunbv56/qwen2.5-vl-vqa-vibook"
+MODEL_ID = "sunbv56/qwen2.5-vl-vqa-vibook"
 
 # If there is an error loading the model, switch to this to use the local version.
-MODEL_ID = "./local-model/qwen2.5-vl-vqa-vibook"
+# MODEL_ID = "./local-model/qwen2.5-vl-vqa-vibook"
 
 print(f"🚀 Đang tải model '{MODEL_ID}' và processor để chạy trên CPU...")
 
